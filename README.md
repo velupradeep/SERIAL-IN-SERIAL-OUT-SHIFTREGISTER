@@ -39,9 +39,7 @@ RegisterNumber:212223240119
 
 */
 ```
-
-
-module EX_10(clk, sin, q);
+module EXP10(clk, sin, q);
 input clk;
 input sin;
 output [3:0] q;
@@ -55,14 +53,15 @@ q[3] <= q[2];
 end
 endmodule
 
+
 ```
 
 **RTL LOGIC FOR SISO Shift Register**
-![image](https://github.com/velupradeep/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/150329341/627c3dba-a62b-4c90-968a-47228284b935)
+![324244027-2abb0e55-1c71-4c43-8fc9-5f3a335f7d54](https://github.com/velupradeep/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/150329341/751e9ad9-fdec-4904-8e61-e965ed8fa980)
 
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-![image](https://github.com/velupradeep/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/150329341/db118976-9e49-41de-978d-fb86cca47da0)
+![324244048-b0182cc2-4c6c-4fca-9aed-811e977833cc](https://github.com/velupradeep/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/150329341/d10493dc-3858-41b5-b5df-58e5344db65e)
 
 
 **RESULTS**
